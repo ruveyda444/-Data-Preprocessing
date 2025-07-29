@@ -13,7 +13,7 @@ print(df.describe())  # sayısal sütunların istatistiksel bilgileri
 
 print(df.describe().T)  # transpoze etme
 
-df.rename(columns={"total_bill": "fiyat", "tip": "bahşiş", "sex": "cinsiyet", "smoker": "sigara", "time": "zaman",
-                   "size": "kişiler"}, inplace=True)  # sütun adlarını değiştirme
+df.rename(columns={"total_bill": "Fiyat", "tip": "Bahşiş", "sex": "Cinsiyet", "smoker": "Sigara", "time": "Zaman",
+                   "size": "Kişiler", "day": "Gün"}, inplace=True)  # sütun adlarını değiştirme
 
 print(df.head()) 
